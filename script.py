@@ -14,6 +14,7 @@ def parabola(xValues):
     yValues.append(y)
   return yValues
 
+
 yAxis = parabola(xAxis)
 
 sliceXAxis  = xAxis[:]
@@ -23,7 +24,7 @@ style = 'ro'
 
 plt.plot(sliceXAxis , sliceYAxis , style)
 
-plt.axis([0, 10, -1, 1])
+plt.axis([0, 100, -1, 1])
 
 filename = 'graph.png'
 plt.savefig(filename)
