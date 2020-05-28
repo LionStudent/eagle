@@ -1,6 +1,9 @@
 matplotlib
+
 flask
+
 mysql-connector
-mysql-connector
+
 requests
+
 cloudinary

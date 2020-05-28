@@ -52,4 +52,4 @@ def dailyIncrease(measurements):
 
             differenceMeasurements.append(difference)
 
-    return differenceMeasurements 
+    return differenceMeasurements

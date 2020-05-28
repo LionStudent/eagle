@@ -1,3 +1,4 @@
+  
 import requests
 
 
@@ -86,4 +87,4 @@ def saveImage(xValues, yValues):
 
     plt.clf()
 
-    return filename 
+    return filename
